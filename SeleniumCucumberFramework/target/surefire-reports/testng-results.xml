@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26469" started-at="2020-04-19T12:24:54Z" finished-at="2020-04-19T12:25:20Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@50f8360d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="26469" started-at="2020-04-19T12:24:54Z" finished-at="2020-04-19T12:25:20Z">
+      <class name="runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@50f8360d]" name="setUpClass" is-config="true" duration-ms="90" started-at="2020-04-19T12:24:54Z" finished-at="2020-04-19T12:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@50f8360d]" name="runScenario" duration-ms="14503" started-at="2020-04-19T12:24:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-19T12:25:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching of various cars from dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search car"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@50f8360d]" name="runScenario" duration-ms="11811" started-at="2020-04-19T12:25:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-19T12:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching of various cars from dropdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search car"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@50f8360d]" name="tearDownClass" is-config="true" duration-ms="28" started-at="2020-04-19T12:25:20Z" finished-at="2020-04-19T12:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
