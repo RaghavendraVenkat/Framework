@@ -1,0 +1,232 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-19T17:49:46.241Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2064073300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Searching of various cars from dropdown",
+        "description": "",
+        "id": "search-car;searching-of-various-cars-from-dropdown;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 815843100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1864973600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on carguides website",
+            "match": {
+              "location": "SearchForCar.i_am_on_carguides_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1020995400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select car of BMW and 220D",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BMW",
+                  "offset": 16
+                },
+                {
+                  "val": "220D",
+                  "offset": 24
+                }
+              ],
+              "location": "SearchForCar.i_select_car_of(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 785993000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Show me cars button",
+            "match": {
+              "location": "SearchForCar.i_click_on_Show_me_cars_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2178717400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to see a list of cars displayed with 8 BMW 220Ds for Sale",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8 BMW 220Ds for Sale",
+                  "offset": 54
+                }
+              ],
+              "location": "SearchForCar.i_should_be_able_to_see_a_list_of_cars_displayed_with(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchCar"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-19T17:49:55.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1382500900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Searching of various cars from dropdown",
+        "description": "",
+        "id": "search-car;searching-of-various-cars-from-dropdown;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 861839500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1641674000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on carguides website",
+            "match": {
+              "location": "SearchForCar.i_am_on_carguides_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1027978900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select car of Kia and RIO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kia",
+                  "offset": 16
+                },
+                {
+                  "val": "RIO",
+                  "offset": 24
+                }
+              ],
+              "location": "SearchForCar.i_select_car_of(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 963924800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Show me cars button",
+            "match": {
+              "location": "SearchForCar.i_click_on_Show_me_cars_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2779621400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to see a list of cars displayed with 404 Kia Rios for Sale",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404 Kia Rios for Sale",
+                  "offset": 54
+                }
+              ],
+              "location": "SearchForCar.i_should_be_able_to_see_a_list_of_cars_displayed_with(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchCar"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Search car",
+    "description": "  I want to use this to search a car from CarGuides.com.au",
+    "id": "search-car",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchForCar.feature",
+    "tags": [
+      {
+        "name": "@SearchCar",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

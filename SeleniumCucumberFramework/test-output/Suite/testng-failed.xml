@@ -5,6 +5,7 @@
     <classes>
       <class name="runner.Runner">
         <methods>
+          <include name="report"/>
           <include name="runScenario" invocation-numbers="0 1"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
